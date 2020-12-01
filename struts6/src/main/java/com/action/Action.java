@@ -13,7 +13,6 @@ public class Action {
     }
 
     public String execute(){
-        System.out.println(name+"---"+password);
         if("zhangsan".equals(name) && "123".equals(password)){
             return "1";
         }else{
